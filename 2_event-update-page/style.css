@@ -1,0 +1,83 @@
+ /* Styling in external CSS*/
+
+.main {
+    border: 2px solid black;
+    width: 1000px;
+    height: 550px;
+    margin: 20px;
+    font-family: Arial;
+}
+
+ /* Styling for head1 */
+.head1 {  
+      
+    text-align: center;
+    font-style: italic;
+    padding-top: 20px;
+    font-weight: bold
+
+}
+
+/* Styling for head2 */
+.head2 {
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styling for sub */
+.sub {
+    border: 2px solid black;
+    margin-left: 40px;
+    width: 900px;
+    height: 350px
+}
+
+/* Styling for box */
+.box {
+    margin-top: 50px;
+    margin-left: 20px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black
+}
+.el {
+    width: 100px;
+    height: 150px; 
+    margin-top: 20px;
+    margin-left: 50px; 
+    border-radius: 50%;
+    border: 2px solid black
+  
+
+}
+.imagealign {
+    margin-top: 60px;
+    margin-left: 25px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Styling for text fields*/
+.col-8 {
+    margin-top: 10px;
+}
+#row2 {
+    margin-left: 500px;
+    padding: 10px;
+}
+.mar {
+margin-top: 50px;
+}
+#name {
+margin-bottom: 10px;
+}
+
+#email {
+margin-bottom: 10px;
+}
+#phonenumber {
+margin-bottom: 10px;
+}
+#seats {
+margin-bottom: 10px;
+}

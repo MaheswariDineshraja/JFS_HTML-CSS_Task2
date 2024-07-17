@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Event-update-page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <!-- Event Information -->
+            <h2 class="head1">Event 1</h2>
+            <h4 class="head2">Number of available seats: 23</h4>
+<form >
+            <div class="sub" >
+                <!-- Form Layout -->
+
+                <!-- Left Column for Image -->
+                <div class="row">
+                    <div class="col">
+                        <div class="box">
+                            <div class="el">
+                                <label for="=file" class="imagealign" ><b>Image</b></label>                          
+                               
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Middle Column for Labels -->
+                    <div class="col" style="margin-top: 50px; text-align:right;" >
+                        
+                        <div>  <label for="name" > <h5>Name: </h5></label> </div>
+                        <div>  <label for="email"><h5>Email: </h5></label> </div>
+    
+                        <div> <label for="phonenumber"> <h5>Phone No.:</h5> </label> </div>
+    
+                        <div> <label for="seats"> <h5>Number of Seats: </h5> </label> </div>
+    
+                        <div> <label for="attendee"> <h5>Name of Attendee 2: </h5></label> </div>  
+                    </div>
+
+                    <!-- Right Column for Input Fields -->
+                    <div class="col" style="margin-top: 50px;" >
+                        
+                        <div><input type="name" id="name"  ></div>
+                        <div><input type="email" id="email"></div>
+                        <div><input type="phonenumber" id="phonenumber"> </div>
+                        <div> <select id="seats" name="NumberofSeats">
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                                <option value="13">13</option>
+                                <option value="14">14</option>
+                                <option value="15">15</option>
+                                <option value="16">16</option>
+                                <option value="17">17</option>
+                                <option value="18">18</option>
+                                <option value="19">19</option>
+                                <option value="20">20</option>
+                                <option value="21">21</option>
+                                <option value="22">22</option>
+                                <option value="23">23</option>
+
+                            </select> </div>
+
+                        <div><input type="attendee" id="attendee"></div>
+                    </div>
+                
+                </div>
+
+                <!-- Submit and Cancel Buttons -->
+                <div class="row" id="row2">
+                    <button type="submit" style="margin-right: 20px;">Submit</button>
+                    <button type="button">Cancel</button>
+                </div>
+
+            </div>
+
+
+        </form>
+
+        </div>
+
+        
+    </div>
+</body>
+</html>
